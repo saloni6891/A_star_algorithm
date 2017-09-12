@@ -8,6 +8,9 @@ public class Node : MonoBehaviour
 
     private int x;
     private int y;
+    private int f;
+    private int g;
+    private int h;
     private NodeType type;
 
     public int getX()
@@ -28,6 +31,36 @@ public class Node : MonoBehaviour
     public void setY(int Y)
     {
         y = Y;
+    }
+
+    public int getF()
+    {
+        return f;
+    }
+
+    public void setF(int F)
+    {
+        f = F;
+    }
+
+    public int getG()
+    {
+        return g;
+    }
+
+    public void setG(int G)
+    {
+        g = G;
+    }
+
+    public int getH()
+    {
+        return h;
+    }
+
+    public void setF(int H)
+    {
+        h = H;
     }
 
     public NodeType getType()

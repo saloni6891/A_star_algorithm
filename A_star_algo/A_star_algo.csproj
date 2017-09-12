@@ -88,6 +88,7 @@
     <Compile Include="Assets\Grid.cs" />
     <Compile Include="Assets\GridManager.cs" />
     <Compile Include="Assets\Node.cs" />
+    <Compile Include="Assets\a_star.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Grid_map.txt" />
